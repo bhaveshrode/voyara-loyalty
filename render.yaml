@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: voyara-loyalty
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
