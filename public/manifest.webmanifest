@@ -1,0 +1,18 @@
+{
+  "name": "Voyara — Travel & Lifestyle Rewards",
+  "short_name": "Voyara",
+  "description": "One loyalty balance across a network of travel and lifestyle brands.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f1e6",
+  "theme_color": "#112a22",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

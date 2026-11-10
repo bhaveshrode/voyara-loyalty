@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+.tools
+data/platform.json
+data/chain-snapshot.json
+lib/chain/deployment.json
+lib/chain/abis.json
+artifacts
+cache
+typechain-types
+.env
+.env.local
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
